@@ -7,4 +7,4 @@ for i in l:
         else:
                 d[wrd]=[i]
 print(d)
-print(list(d.values()))p
+print(list(d.values()))
