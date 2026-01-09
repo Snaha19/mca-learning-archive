@@ -19,3 +19,11 @@ print(max_v)
 print(min_v)  
 print(t)  
 
+for i in range(len(t)):
+    print(f"Total sales of product {i+1} is {t[i]}")
+for i in range(len(t)):
+    if t[i]==max_v:
+        print(f"the product {i+1} has maximum sales of {max_v}")
+for i in range(len(t)):
+    if t[i]==min_v:
+        print(f"the product {i+1} has minimum sales of {min_v}")
